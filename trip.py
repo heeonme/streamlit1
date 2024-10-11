@@ -24,15 +24,21 @@ image11 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5200.jp
 image12 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5201.jpg"
 
 
-st.image(image2)
-st.image(image3)
-st.image(image4)
-st.image(image5)
-st.image(image6)
-st.image(image7)
-st.image(image8)
-st.image(image9)
-st.image(image10)
-st.image(image11)
-st.image(image12)
-st.image(image1)
+col1, col2 = st.columns(2)
+
+with col1:
+    st.image(image2)
+    st.image(image4)
+    st.image(image6)
+    st.image(image8)
+    st.image(image10)
+    st.image(image12)
+
+with col2:
+    st.image(image3)
+    st.image(image5)
+    st.image(image7)
+    st.image(image9)
+    st.image(image11)
+    st.image(image1)
+
