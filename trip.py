@@ -9,7 +9,7 @@ st.set_page_config(
 
 st.title("수학여행 안내사항")
 
-if st.button("수학여행 U+1F38"):
+if st.button("수학여행🎈"):
     st.balloons()
 
 image1 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5203.jpg"
