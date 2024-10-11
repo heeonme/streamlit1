@@ -9,6 +9,8 @@ st.set_page_config(
 
 st.title("수학여행 안내사항")
 
+if st.button("수학여행", icon="😃"):
+    st.balloons
 
 image1 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5203.jpg"
 image2 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5204.jpg"
@@ -45,7 +47,3 @@ with col2:
     st.image(image9)
     st.image(image11)
 
-sentiment_mapping = [":material/thumb_down:", ":material/thumb_up:"]
-selected = st.feedback("thumbs")
-if selected is not None:
-    st.balloons()
