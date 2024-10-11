@@ -22,14 +22,14 @@ image9 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5211.jpg
 image10 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5212.jpg"
 image11 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5213.jpg"
 image12 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5214.jpg"
-image12 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5191.jpg"
+image13 = "https://raw.githubusercontent.com/heeonme/streamlit1/main/IMG_5191.jpg"
 
 
 col1, col2 = st.columns(2)
 
 
 with col1:
-    st.image(image12)
+    st.image(image13)
     st.image(image2)
     st.image(image4)
     st.image(image6)
